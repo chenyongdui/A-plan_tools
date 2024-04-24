@@ -78,7 +78,7 @@ inoremap jj <esc>
 " noremap U 5k
 " noremap E 5j
 nnoremap mm :CocCommand translator.popup<CR>
-let g:coc_global_extensions = ['coc-marketplace', 'coc-prettier', 'coc-html', 'coc-tsserver', 'coc-json', 'coc-css', 'coc-vimlsp', 'coc-actions', 'coc-translator', 'coc-vetur', 'coc-pyright']
+let g:coc_global_extensions = ['coc-marketplace', 'coc-prettier', 'coc-html', 'coc-tsserver', 'coc-json', 'coc-css', 'coc-vimlsp', 'coc-actions', 'coc-translator', 'coc-vetur', 'coc-pyright', 'coc-clangd']
 "below this line are easymotion key map settings"
 "search single string"
 map <space><space> <Plug>(easymotion-bd-f)
@@ -308,7 +308,7 @@ let g:rbpt_colorpairs = [
     \ ['red',         'firebrick3'],
     \ ]
 
-set tags=E:\work_source_code\openvpn\tags
+set tags=F:/source_code_study/github_project/openvpn
 
 function! UpdateCtags()
     let curdir=getcwd()
